@@ -10,7 +10,7 @@ MANPAGES_DIST=		s6-networking-man-pages-${MANPAGES_VERSION}.tar.gz
 DISTFILES=		${_GITHUB_DEFAULT_DISTFILES} ${MANPAGES_DIST}
 SITES.${MANPAGES_DIST}=	-https://git.sr.ht/~flexibeast/${PKGBASE}-man-pages/archive/v${MANPAGES_VERSION}.tar.gz
 GITHUB_PROJECT=		s6-networking
-GITHUB_TAG=		bffe71501a9be468cb0e31d8e607bd02ace3cc81
+GITHUB_TAG=		2ba50e852405bdc9216e73ddd60fed7be2a080a6
 
 MAINTAINER=		schmonz@NetBSD.org
 HOMEPAGE=		https://skarnet.org/software/s6-networking/
